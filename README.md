@@ -2,6 +2,7 @@
 Training an MLP Neural Network for MNIST Dataset using only numpy and pandas
 
 
-The data is given in .csv file.
-I have used two hidden layers, each with 16 neurons. ReLU and sigmoid activation functions are used.
-Achieved an accuracy of 86% on the test data, and the confusion matrix has been plotted...
+The dataset can be downloaded in CSV format from the following link: [MNIST Datasets](https://git-disl.github.io/GTDLBench/datasets/mnist_datasets/).
+I implemented a neural network with two hidden layers, each consisting of 16 neurons. 
+The ReLU activation function is used for the hidden layers, while the sigmoid activation function is applied to the output layer. <br>
+The model achieved an accuracy of 86% on the test dataset, and the corresponding confusion matrix has been plotted to visualize the performance.
